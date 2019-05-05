@@ -48,7 +48,7 @@ function App() {
              <button type="button" id="button2" class="btn btn-info btn-lg">  Start a new team</button>
            </div>
           </div>
-          <h5 id="card-text">Already joined a Slack team? Sign in</h5>
+          <h5 id="card-text">Already joined a Slack team? <a id="a-link" href="#">Sign in</a></h5>
         </div>
       </div>
     </div>

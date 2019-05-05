@@ -34,7 +34,7 @@ body {
 #card {
   max-width: 40rem;
   padding: 4rem;
-
+  background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 #h1-main {
@@ -73,4 +73,9 @@ body {
   border-right: 6px solid;
   height: 3rem;
   margin-left: 5px;
+}
+
+#a-link {
+  text-decoration: underline;
+  color: white;
 }
