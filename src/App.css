@@ -70,9 +70,9 @@ body {
 }
 
 #earth {
-  border-right: 6px solid;
-  height: 3rem;
+  border-right: 8px solid;
   margin-left: 5px;
+  border-right-style: inset;
 }
 
 #a-link {
