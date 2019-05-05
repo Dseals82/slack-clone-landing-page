@@ -33,10 +33,10 @@ function App() {
         </div>
       </nav>
       <div className="container">
-        <h1 id="h1-main">A messaging app for teams<br/> who see through the Earth</h1>
+        <h1 id="h1-main">A messaging app for teams<br/> who see <span id="thr">thr</span>ough the Earth <span id="earth"></span></h1>
         <p id="p-main">
-          The IceCube Collaboration is one of tens of thousands of teams around
-          the world using<br/> Slace to make their working lives simpler, more pleasent,
+          <span className="bold">The IceCube Collaboration</span> is one of tens of thousands of teams around
+          the world using<br/> <span className="bold"> Slack</span> to make their working lives simpler, more pleasent,
           and more productive
         </p>
         <div id="card" className="container card bg-dark text-white">
