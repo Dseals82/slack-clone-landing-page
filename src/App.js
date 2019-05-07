@@ -41,10 +41,10 @@ function App() {
         </p>
         <div id="card" className="container card bg-dark text-white">
           <div class="row">
-           <div class="col">
-             <button type="button" id="button1" class="btn btn-success btn-lg">Join existing team</button>
+           <div class="col d-flex flex-row justify-content-center">
+             <button type="button" id="button1" class="btn btn-success btn-lg ">Join existing team</button>
            </div>
-           <div class="col">
+           <div class="col d-flex flex-row justify-content-center">
              <button type="button" id="button2" class="btn btn-info btn-lg">  Start a new team</button>
            </div>
           </div>

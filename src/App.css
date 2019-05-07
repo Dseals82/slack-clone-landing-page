@@ -9,6 +9,9 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #nav {
@@ -78,4 +81,31 @@ body {
 #a-link {
   text-decoration: underline;
   color: white;
+}
+
+
+/* media query */
+
+@media (max-width: 996px) {
+  html,body {
+    height: 990px;
+  }
+  #h1-main {
+    color: white;
+    font-size: 3rem
+  }
+  #card {
+    max-width: 40rem;
+    padding: 2rem;
+    margin-bottom: -10;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  #button1 {
+
+    margin: 1rem;
+  }
+  #button2 {
+    margin: 1rem;
+
+  }
 }
